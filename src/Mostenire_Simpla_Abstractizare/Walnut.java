@@ -1,4 +1,4 @@
-package Mostenire_Simpla;
+package Mostenire_Simpla_Abstractizare;
 
 public class Walnut extends Tree{
     private String fructColor;
@@ -13,6 +13,14 @@ public class Walnut extends Tree{
         return this.fructColor;
     }
 
+    @Override
+    public void owner() {
+        System.out.println("The owner is Grisa");
+    }
+    @Override
+    public int numberOfLeaves() {
+        return 19283;
+    }
     @Override
     public String toString() {
         return "Tree{" +

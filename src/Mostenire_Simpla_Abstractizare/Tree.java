@@ -1,6 +1,6 @@
-package Mostenire_Simpla;
+package Mostenire_Simpla_Abstractizare;
 
-public class Tree {
+abstract class Tree {
     private int years;
     private double height;
     private String location;
@@ -34,6 +34,9 @@ public class Tree {
     public String getLocation() {
         return this.location;
     }
+
+    abstract void owner();
+    abstract int numberOfLeaves();
     @Override
     public String toString() {
         return "Tree{" +

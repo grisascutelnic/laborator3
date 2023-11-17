@@ -20,7 +20,6 @@ public class Worker extends Person{
     public void describe() {
         System.out.println("Enter the name, age and profession delimited by enter: ");
     }
-
     @Override
     public String toString() {
         return "Person{" +
