@@ -35,4 +35,11 @@ public class Samsung implements Phone{
         System.out.println("Diagonala: 7cm");
     }
 
+    @Override
+    public String toString() {
+        return "Samsung{" +
+                "ram=" + ram +
+                ", greutate=" + greutate +
+                '}';
+    }
 }
