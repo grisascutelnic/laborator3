@@ -35,8 +35,8 @@ abstract class Tree {
         return this.location;
     }
 
-    abstract void owner();
-    abstract int numberOfLeaves();
+    public abstract void owner();
+    public abstract int numberOfLeaves();
     @Override
     public String toString() {
         return "Tree{" +
